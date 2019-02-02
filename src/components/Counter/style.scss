@@ -1,0 +1,23 @@
+// Utilities
+@import '../../variables';
+
+.app {
+  .counterContainer {
+    form {
+      justify-content: center;
+      padding-bottom: 20px;
+
+      .col {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+    }
+
+    .counterIndicator {
+      width: 70px;
+      height: 36px;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+// Utilities
+@import '../../variables';
+
+.app {
+  .appHeader {
+    background-color: $primaryColor;
+
+    .navbar {
+      height: 80px;
+    }
+  }
+}

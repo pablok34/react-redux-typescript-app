@@ -1,0 +1,13 @@
+// Utilities
+@import '../../variables';
+
+.app {
+  .appFooter {
+    position: absolute;
+    background-color: $primaryColor;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 200px;
+  }
+}

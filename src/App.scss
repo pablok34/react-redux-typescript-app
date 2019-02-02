@@ -1,0 +1,130 @@
+// Utilities
+@import './variables';
+
+.app {
+  font-family: 'Arial';
+
+  h1 {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  a,
+  p,
+  button {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .appLink {
+    color: $primaryColor;
+    font-style: italic;
+    font-weight: bold;
+
+    &:hover {
+      color: $secondaryColor;
+      text-decoration: none;
+    }
+  }
+
+  .appLogo {
+    height: 32px;
+  }
+
+  .navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .navbar-brand {
+    padding: 0px;
+  }
+
+  .nav-link {
+    background: $primaryColor;
+    color: $linkColor;
+    padding: 12px !important;
+    line-height: 16px;
+  }
+
+  .nav-link:hover {
+    background: $secondaryColor;
+    color: $linkColor;
+  }
+
+  .appButton {
+    background-color: $primaryColor;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-weight: bold;
+    height: 36px;
+  }
+
+  .appButton:hover {
+    background-color: $secondaryColor;
+  }
+
+  .appButton:disabled {
+    background-color: $greyColor;
+    opacity: 1;
+  }
+
+  .appButton.appButtonIcon {
+    padding: 10px;
+  }
+
+  input.form-control:disabled {
+    background-color: $greyColor;
+  }
+
+  .appIcon {
+    height: 32px;
+    width: 32px;
+  }
+
+  .singleContainer {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    h1,
+    p {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-bottom: 0px;
+    }
+  }
+  .moduleContainer {
+    padding: 20px;
+    min-height: 165px;
+    width: 290px;
+    border: 1px solid $greyColor;
+    border-radius: 4px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      padding-bottom: 20px;
+      margin-bottom: 0px;
+    }
+
+    p {
+      margin-bottom: 0px;
+    }
+  }
+
+  .appErrorColor {
+    color: $errorColor;
+  }
+  .appSuccesColor {
+    color: $successColor;
+  }
+  .appWarningColor {
+    color: $alertColor;
+  }
+}
